@@ -4,7 +4,7 @@ Project 2
 
 #	Data sources
 -	Crypto – BTC ETH ALPACI API 
--	Stock – SPY 500 – Data source:  Yahoo Finance
+-	Stock – SPY 500 – Data source:  Yahoo Finance - 'from yahoofinancials import YahooFinancials'
 -	Oil – Yahoo Finance
 -	Gold –Yahoo Finance
 -	Real Estate: Average Home Price: FRED?
