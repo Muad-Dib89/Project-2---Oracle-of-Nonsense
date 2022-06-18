@@ -1,6 +1,8 @@
 # Project-2---Oracle-of-Nonsense
 Project 2 
-#Dashboard of economic sentiment on different asset classes 
+#Dashboard of economic sentiment on different asset classes
+
+Our project allows us to make future predictions on the value of various assets using historical data and the power of machine learning. We can use these predictions to 
 
 #	Data sources
 -	Crypto – BTC ETH ALPACI API 
