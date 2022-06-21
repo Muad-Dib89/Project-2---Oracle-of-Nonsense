@@ -5,10 +5,11 @@ Project 2
 This project allows us to make future predictions of the value of various assets using historical data, media setiment and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values. After gathering data from various sources, we cleaned and processed this data for processing by our NLP and Machine Learning algorithims. After processing, we visualized the new data for analysis and presentation in order to make future predictions.  
 
 #	Data sources
--	Crypto – BTC ETH ALPACI API 
--	Stock – SPY 500 – Data source:  Yahoo Finance - 'from yahoofinancials import YahooFinancials'
--	Oil – Yahoo Finance
--	Gold –Yahoo Finance
+For our data, we used various sources such as ALPACA and Yahoo Finance. We used these sources to extrapolate key metrics such as:
+-	Crypto Currency prices (BitCoin and Eterium) 
+-	Stock Market closing prices
+-	Crude Oil prices 
+-	Gold prices 
 -	Real Estate: Average Home Price: FRED?
 Standard Analysis > Display Key Metrics 
 Natural Language Processing > Run sentiment analysis on key words involved with asset classes above
