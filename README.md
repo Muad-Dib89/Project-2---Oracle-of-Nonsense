@@ -2,7 +2,7 @@
 Project 2 
 #Dashboard of economic sentiment on different asset classes
 
-This project allows us to make future predictions of the value of various assets using historical data and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values  
+This project allows us to make future predictions of the value of various assets using historical data, media setiment and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values. After gathering data from various sources, we cleaned and processed this data for processing by our NLP and Machine Learning algorithims. After processing, we visualized the new data for analysis and presentation in order to make future predictions.  
 
 #	Data sources
 -	Crypto – BTC ETH ALPACI API 
