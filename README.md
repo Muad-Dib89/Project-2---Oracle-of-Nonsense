@@ -10,17 +10,11 @@ For our data, we used various sources such as ALPACA and Yahoo Finance. We used 
 -	Stock Market closing prices
 -	Crude Oil prices 
 -	Gold prices 
--	Real Estate: Average Home Price: FRED?
-Standard Analysis > Display Key Metrics 
-Natural Language Processing > Run sentiment analysis on key words involved with asset classes above
-	Output Word Counts, Positive/Negative tone
-Machine Learning: Classification of the sentiment data, is it negative or positive and future prediction of sentiment
-Signal bot based on sentiment classification comparison against key metrics of Asset Data 
 
 
+ # Deliverables:
 
-
-# Deliverables:
+We aim to provide a standard analysis and to display key metrics. To do so, we will use natural language processing (NLP) to run a sentiment analysis on key words involved with the asset classes chosen. This will provide us with output word counts and positive, neutral or negative sentiments associated with each asset. Our machine learning component will classify the sentiment data (positive, neutral, negative) and calculate a future prediction of sentiment.
 
 Our deliverables include:
 -	NLP sentiment scores (mark Staten)
