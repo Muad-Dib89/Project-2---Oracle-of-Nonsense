@@ -23,28 +23,20 @@ Signal bot based on sentiment classification comparison against key metrics of A
 # Deliverables:
 
 Our deliverables include:
--	NLP sentiment scores
--	An interactive dashboard
--	A Machine Learning predictive algorithim
--	Asset class and predicted values data frames and visualizations
--	Power point presentation
-1.	Mark- Dashboard and Natural Language Procesing
-2.	Jacob – ML
-3.	Gerald- Read Me
-Time line:
-1.	Get data sources by asset classes by 18th    Jacob and Gerald
-2.	API and Data source for NLP 18th – Mark
-3.	NLP Prior to 6/21 - Mark
-4.	ML Class using Price Data – Jacob 6/21
-5.	Dashboard 6/25
-6.	Refinement/testing added feature 6/23 6/25
-7.	Read Me/ Power Point 6/25
+-	NLP sentiment scores (mark Staten)
+-	An interactive dashboard (Mark Staten)
+-	A Machine Learning predictive algorithim (Jacob Edelbrock)
+-	Asset class and predicted values data frames and visualizations (Gerald Howard and Jacob Edelbrock)
+-	Power point presentation (Gerald Howard)
+-	Read Me file (Gerald Howard)
 
 
-ML: Build it out using price data prediction component 
--	Principle component analysis 
--	
 
 
--	API twitter mention sentiment> 
+
+
+
+
+
+ 
 
