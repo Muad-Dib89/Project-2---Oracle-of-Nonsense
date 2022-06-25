@@ -6,7 +6,7 @@ This project allows us to make future predictions of the value of various assets
 
 #	Data sources
 For our data, we used various sources such as ALPACA and Yahoo Finance. We used these sources to extrapolate key metrics such as:
--	Crypto Currency prices (BitCoin and Eterium) 
+-	Crypto Currency prices (BitCoin and Ethereum) 
 -	Stock Market closing prices
 -	Crude Oil prices 
 -	Gold prices 
