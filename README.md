@@ -2,7 +2,7 @@
 Project 2 
 #Dashboard of economic sentiment on different asset classes
 
-This project allows us to make future predictions of the value of various assets using historical data, media setiment and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values. After gathering data from various sources, we cleaned and processed this data for processing by our NLP and Machine Learning algorithims. After processing, we visualized the new data for analysis and presentation in order to make future predictions.  
+This project allows us to make future predictions of the value of various assets using historical data, media setiment and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values. After gathering data from various sources, we cleaned and processed this data for processing by our NLP and Machine Learning algorithims. After processing, we visualized the data and our predictions for analysis and presentation.  
 
 #	Data sources
 For our data, we used various sources such as ALPACA and Yahoo Finance. We used these sources to extrapolate key metrics such as:
@@ -21,6 +21,13 @@ Signal bot based on sentiment classification comparison against key metrics of A
 
 
 # Deliverables:
+
+Our deliverables include:
+-	NLP sentiment scores
+-	An interactive dashboard
+-	A Machine Learning predictive algorithim
+-	Asset class and predicted values data frames and visualizations
+-	Power point presentation
 1.	Mark- Dashboard and Natural Language Procesing
 2.	Jacob – ML
 3.	Gerald- Read Me
