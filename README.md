@@ -2,56 +2,47 @@
 Project 2 
 #Dashboard of economic sentiment on different asset classes
 
-This project allows us to make future predictions of the value of various assets using historical data, media setiment and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values. After gathering data from various sources, we cleaned and processed this data for processing by our NLP and Machine Learning algorithims. After processing, we visualized the data and our predictions for analysis and presentation.  
+This project allows us to make future predictions of the value of various assets using historical data, media setiment and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values. After gathering data from various sources, we cleaned and processed this data for processing by our NLP and Machine Learning algorithims. After processing, we visualized the new data for analysis and presentation in order to make future predictions.  
 
 #	Data sources
-For our data, we used various  Yahoo Finance API calls. Historical prices dating back 2 years were pulled. Weekly pricing data was obtained
--	Crypto Currency prices and volumes (BitCoin and Ethereum) 
--	Stock Market closing prices and volumes (SPY)
--	Crude Oil prices and volumes (CL+F)
--	Gold prices and volumes  (CR=F)
-
-For NLP and sentiment Analysis the NEWS API was utilized. 
-- Top 100 articcles pulled on a weekly window over the last 2 years
-- Custome function built to determine weekly sentiment score for each asset.
-
-# Machine Learning 
-Fitting data Window  
-- Defining Features(sentiment score) and Target (price/market direction)   
-- Scaling the data: StandardScalar (Normally distributed)   
-- Created 2 Machine Learning Algorithms  
-LSTM Neural network with 2 layers. Sentiment score to predict SPY price  
-“Adam” optimizer incorporates momentum and exponential weighted averages  
-LTSM Neural network with 2 layers. Sentiment score to predict directionality of the SPY  
-Sigmoid activation, binary cross entropy (True/False)   
+For our data, we used various sources such as ALPACA and Yahoo Finance. We used these sources to extrapolate key metrics such as:
+-	Crypto Currency prices (BitCoin and Eterium) 
+-	Stock Market closing prices
+-	Crude Oil prices 
+-	Gold prices 
+-	Real Estate: Average Home Price: FRED?
+Standard Analysis > Display Key Metrics 
+Natural Language Processing > Run sentiment analysis on key words involved with asset classes above
+	Output Word Counts, Positive/Negative tone
+Machine Learning: Classification of the sentiment data, is it negative or positive and future prediction of sentiment
+Signal bot based on sentiment classification comparison against key metrics of Asset Data 
 
 
- # Deliverables:
 
-We aim to provide a standard analysis and to display key metrics. To do so, we will use natural language processing (NLP) to run a sentiment analysis on key words involved with the asset classes chosen. This will provide us with output word counts and positive, neutral or negative sentiments associated with each asset. Our machine learning component will classify the sentiment data (positive, neutral, negative) and calculate a future prediction of sentiment.
 
-Our deliverables include:
--	NLP sentiment scores (Mark Staten)
--	A Machine Learning predictive algorithim (Jacob Edelbrock,  Mark Staten)
--	Asset class and predicted values data frames and visualizations (Gerald Howard and Jacob Edelbrock)
--	Power point presentation (Gerald Howard)
--	Read Me file (Gerald Howard)
+# Deliverables:
+1.	Mark- Dashboard and Natural Language Procesing
+2.	Jacob – ML
+3.	Gerald- Read Me
+Time line:
+1.	Get data sources by asset classes by 18th    Jacob and Gerald
+2.	API and Data source for NLP 18th – Mark
+3.	NLP Prior to 6/21 - Mark
+4.	ML Class using Price Data – Jacob 6/21
+5.	Dashboard 6/25
+6.	Refinement/testing added feature 6/23 6/25
+7.	Read Me/ Power Point 6/25
 
-# Overview of Code Structure in Notebook
 
-* Loading most if not all Libraries needed or plan to use
-* Loading the environment settings
-* Defining Functions to pull news items and to calculate the sentiment scores
- - headline_sentiment_summarizer_avg(data,sdate)
- - get_headlines(keyword,fdate,edate)
-* Pulling in Asset Values into the Dataframe from yahoo financials
-* Combining Asset Data into a single dataframe and setting index to DateTime, Adding feature using pandas lambda function to create a binary determination on last two weeks of data based on price for each asset class
-* Commented out loop code: Pull News api data for 2 years. This is using a paid plan and to minimize cost we do not run unless our saved sentiment scores get corrupted
-* Saved Sentiment scores to csv files so we dont have to keep pulling the news data using api calls
-* Load all sentiment scores to a single pandas dataframe
-* Create a Price Model (SPY) based on sentiment data ( We planned on all assets but did not complete that portion of the project idea )
-![Sentiment Price Model Loss Function curve](/RegressionMSE_sentimentPriceModel.png)
-![Sentiment Price Model Loss Function curve](/Regression_SentimentPrice_RealvsPredicted.png)
+ML: Build it out using price data prediction component 
+-	Principle component analysis 
+-	
 
+
+-	API twitter mention sentiment> 
+
+<<<<<<< HEAD
 * Created a Model (SPY) to predict market direction !
 ![Sentiment Price Model Loss Function curve](/sigmoid_sentiment_marketdirection.png)
+=======
+>>>>>>> d6e4fce58b2099fc69c0ea0639e96a5d9adfd57f
