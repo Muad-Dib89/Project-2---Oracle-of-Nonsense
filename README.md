@@ -15,7 +15,7 @@ For NLP and sentiment Analysis the NEWS API was utilized.
 - Top 100 articcles pulled on a weekly window over the last 2 years
 - Custome function built to determine weekly sentiment score for each asset.
 
-# Machine Learningn 
+# Machine Learning 
 Fitting data Window  
 - Defining Features(sentiment score) and Target (price/market direction)   
 - Scaling the data: StandardScalar (Normally distributed)   
