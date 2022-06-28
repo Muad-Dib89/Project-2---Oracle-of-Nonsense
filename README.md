@@ -16,14 +16,14 @@ For NLP and sentiment Analysis the NEWS API was utilized.
 - Custome function built to determine weekly sentiment score for each asset.
 
 # Machine Learningn 
-Fitting data Window
-Defining Features(sentiment score) and Target (price/market direction) 
-Scaling the data: StandardScalar (Normally distributed) 
-Created 2 Machine Learning Algorithms
-LSTM Neural network with 2 layers. Sentiment score to predict SPY price
-“Adam” optimizer incorporates momentum and exponential weighted averages
-LTSM Neural network with 2 layers. Sentiment score to predict directionality of the SPY
-Sigmoid activation, binary cross entropy (True/False) 
+Fitting data Window  
+- Defining Features(sentiment score) and Target (price/market direction)   
+- Scaling the data: StandardScalar (Normally distributed)   
+- Created 2 Machine Learning Algorithms  
+LSTM Neural network with 2 layers. Sentiment score to predict SPY price  
+“Adam” optimizer incorporates momentum and exponential weighted averages  
+LTSM Neural network with 2 layers. Sentiment score to predict directionality of the SPY  
+Sigmoid activation, binary cross entropy (True/False)   
 
 
  # Deliverables:
