@@ -4,6 +4,10 @@ Project 2
 
 This project allows us to make future predictions of the value of various assets using historical data, media setiment and the power of machine learning. We can use these predictions to follow market trends and to anticipate asset values. After gathering data from various sources, we cleaned and processed this data for processing by our NLP and Machine Learning algorithims. After processing, we visualized the data and our predictions for analysis and presentation.  
 
+# FinalProj2 Repo  
+- CombinedML.ipynb:  Main source code of our project
+- .csv files are data files saved from API calls (required paid subscription) 
+
 #	Data sources
 For our data, we used various  Yahoo Finance API calls. Historical prices dating back 2 years were pulled. Weekly pricing data was obtained
 -	Crypto Currency prices and volumes (BitCoin and Ethereum) 
